@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* App-wide tweaks */
+:root { color-scheme: light dark; }
+html, body, #root { height: 100%; }
+body { @apply bg-white text-gray-900; }
+
+/***** Reusable classes *****/
+/* .btn { @apply inline-flex items-center justify-center rounded-2xl px-4 py-2 text-sm font-medium shadow-soft transition hover:shadow md:px-5 md:py-2.5; }
+.btn-primary { @apply bg-brand-600 text-white hover:bg-brand-700; }
+.btn-ghost { @apply bg-white text-brand-700 ring-1 ring-brand-200 hover:bg-brand-50; }
+.card { @apply rounded-2xl border border-gray-100 bg-white shadow-soft; }
+.container-pg { @apply mx-auto w-full max-w-6xl px-4; } 
+.btn-primary-hero { @apply bg-brand-600 text-white font-semibold shadow-lg hover:bg-brand-700 hover:shadow-xl transition; }
+.btn-outline-hero { @apply bg-transparent text-white ring-1 ring-white font-semibold hover:bg-white/10 transition; } */
+.btn { @apply inline-flex items-center justify-center rounded-2xl px-4 py-2 text-sm font-medium transition md:px-5 md:py-2.5; }
+.btn-primary { @apply bg-gold-500 text-brand-900 shadow-soft hover:bg-gold-600; }
+.btn-ghost   { @apply bg-white text-brand-800 ring-1 ring-brand-200 hover:bg-brand-50; }
+.btn-white   { @apply bg-white text-brand-900 hover:bg-brand-100 shadow-soft; }
+.btn-outline-white { @apply bg-transparent text-white ring-2 ring-white/80 hover:bg-white/10; }
+.card { @apply rounded-2xl border border-brand-100 bg-white shadow-soft; }
+.container-pg { @apply mx-auto w-full max-w-6xl px-4; }
+.hero-overlay { @apply bg-gradient-to-b from-black/50 via-black/25 to-black/50; }
+.icon-btn { @apply inline-flex h-8 w-8 items-center justify-center rounded-full ring-1 ring-brand-200 text-brand-800 hover:bg-brand-50 hover:ring-brand-300 transition; }
+
+
+html {
+  scroll-behavior: smooth;
+}

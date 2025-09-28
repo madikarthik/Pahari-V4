@@ -1,0 +1,84 @@
+### Testimonial
+
+const testimonials: Testimonial[] = [
+  {
+    id: 't1',
+    name: 'Meera Sharma',
+    subtitle: 'Delhi · Verified Buyer',
+    rating: 5,
+    quote:
+      'The honey tastes like real flowers — rich, layered, and not overly sweet. You can tell it’s unprocessed.',
+    avatar: '/avatars/meera.jpg',
+  },
+  {
+    id: 't2',
+    name: 'Arjun Kapoor',
+    subtitle: 'Mumbai · Verified Buyer',
+    rating: 5,
+    quote:
+      'Sea buckthorn jam is a star at breakfast. Tangy, bright, and feels genuinely clean.',
+    avatar: '/avatars/arjun.jpg',
+  },
+  {
+    id: 't3',
+    name: 'Naina Joshi',
+    subtitle: 'Chandigarh · Verified Buyer',
+    rating: 4,
+    quote:
+      'Packaging is thoughtful and minimal. Loved the farmer story card — feels personal.',
+    avatar: '/avatars/naina.jpg',
+  },
+]
+
+----------------------------------------------------------------------------------------------------------------- 
+## PromiseItem
+
+const promises: PromiseItem[] = [
+  {
+    id: 'p1',
+    title: 'Pure & Natural 🌿',
+    icon: '🌿',
+    points: [
+      'Purity Guaranteed',
+      'Born in the Himalayas',
+      'No Artificial Flavors, Colors, or Synthetic Fragrances',
+      'Zero Sulphates, Parabens & Unnecessary Additives',
+    ],
+  },
+  {
+    id: 'p2',
+    title: 'Handcrafted Quality 👐',
+    icon: '👐',
+    points: [
+      'Handmade in Small Batches',
+      'Batch-Made, Not Mass-Made',
+      'Clean Ingredients',
+      'No Heat or Chemical Processing (Retains Nutrients)',
+    ],
+  },
+  {
+    id: 'p3',
+    title: 'Ethical & Sustainable 🤝',
+    icon: '🤝',
+    points: [
+      'Ethically & Sustainably Sourced',
+      'Supports Tribal & Local Himalayan Farmers',
+      'Rooted in Real Communities',
+      'Sustainable Harvesting Practices',
+    ],
+  },
+  {
+    id: 'p4',
+    title: 'Traceable & Transparent 🔍',
+    icon: '🔍',
+    points: [
+      'Full Traceability',
+      'Honest, Direct Sourcing — No Middlemen',
+      'Transparent Supply Chain',
+      'Responsibly Packaged for Freshness',
+    ],
+  },
+]
+
+----------------------------------------------------------------------------------------------------------------- 
+

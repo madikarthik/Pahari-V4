@@ -1,0 +1,6 @@
+id,date,type,amount,notes
+ecb45d5f-31f8-451e-88c1-86d9f78344a0,2025-07-25,adjustment,1500,Bonus adjustment
+98732977-7600-4384-9841-efa4af52970b,2025-07-20,payout,8000,July payout
+e5daa5a8-54db-4a30-98f6-dc8a3dce9171,2025-07-10,payout,4000,July payout
+173297b1-eaab-499f-9a7f-3b63ae173634,2025-07-07,advance,18000,July advance
+ea5ed7b2-d792-470d-bfd2-20c7d6f36194,2025-07-01,advance,10000,Initial supply advance
